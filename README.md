@@ -6,9 +6,7 @@ Welcome to **FlavorNest**, a beautifully crafted Recipe Book website created usi
 
 👉 [Click here to visit the live website](https://areesha797.github.io/Recipe-Book)
 
-## 📸 Preview
 
-![Screenshot](screenshot.png) <!-- Replace with actual image link if needed -->
 
 ## 🛠️ Technologies Used
 
