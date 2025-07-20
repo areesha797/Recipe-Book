@@ -22,5 +22,4 @@ Welcome to **FlavorNest**, a beautifully crafted Recipe Book website created usi
 - Clean UI with organized recipe sections.
 - Future updates planned (adding categories, search, filter, and login options).
 
-## 📁 Project Structure
 
