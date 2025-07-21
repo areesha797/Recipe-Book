@@ -1,40 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FlavorNest - Recipe Book</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
-  <header>
-    <h1>FlavorNest</h1>
-    <p class="slogan">"Your Perfect Guide to Cooking Happiness!"</p>
-    <p class="quote">Quote of the Day: “People who love to eat are always the best people.” – Julia Child</p>
-    <input type="text" id="searchBar" placeholder="Search for recipes..." />
-    <nav>
-      <button class="category-btn" data-category="breakfast">Breakfast</button>
-      <button class="category-btn" data-category="lunch">Lunch</button>
-      <button class="category-btn" data-category="dinner">Dinner</button>
-      <button class="category-btn" data-category="salads">Salads</button>
-      <button class="category-btn" data-category="drinks">Drinks</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Areesha Naeem - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">Areesha Naeem</a>
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#certifications" class="nav-link">Certifications</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </nav>
-  </header>
 
-  <main>
-    <section id="recipes-container"></section>
-  </main>
+    <header id="home">
+      <img src="images/Pro.jpg" alt="Areesha Naeem Photo" />
+      <h1>AREESHA NAEEM</h1>
+      <p>
+        COMPUTER SCIENCE STUDENT || COMSATS'26 || WEB DEVELOPER || AI ENTHUSIAST
+      </p>
+    </header>
 
-  <script src="script.js"></script>
+    <section class="section" id="about">
+      <h2>ABOUT ME</h2>
+      <p>
+        A Computer Science student at COMSATS University (Batch 2026) with a
+        passion for web development, artificial intelligence, and machine
+        learning. My expertise includes creating web applications, developing AI
+        solutions, and solving real-world problems through technology. I am
+        enthusiastic about learning new technologies and contributing to
+        impactful projects.
+      </p>
+    </section>
 
+    <section class="section" id="education">
+      <h2>EDUCATION</h2>
+      <ul class="education-list">
+        <li>Fazaia Degree College ARF Kamra — Matriculation (2018) — 90%</li>
+        <li>Fazaia Degree College ARF Kamra — F.Sc (2020) — 88%</li>
+        <li>
+          COMSATS University Islamabad, Attock Campus — Bachelor's In Computer
+          Science (7th Semester)- CGPA 3.50
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="portfolio">
+      <h2>PROJECTS</h2>
+      <div class="projects">
+        <div class="card">
+          <a href="https://areesha797.github.io/Stopwatch-Web-App/Stopwatch.html" target="_blank">
+            Stopwatch Web Application
+          </a>
+          <ul>
+            <li>Built with HTML, CSS, and JavaScript</li>
+            <li>Includes Start, Stop, and Reset functionality</li>
+            <li>Responsive user interface</li>
+            <li>Practiced DOM manipulation and timing functions</li>
+          </ul>
+          <a href="https://areesha797.github.io/Stopwatch-Web-App/Stopwatch.html">Live Website Demo</a>
+        </div>
+
+        <div class="card">
+          <a href="https://areesha797.github.io/Tic-tac-toe-Web-App/" target="_blank">
+            Tic Tac Toe Web Application
+          </a>
+          <ul>
+            <li>Classic two-player game using HTML, CSS, and JS</li>
+            <li>Real-time turn switching and win detection</li>
+            <li>Clean interface and responsive layout</li>
+            <li>Enhanced skills in logic and event handling</li>
+          </ul>
+          <a href="https://areesha797.github.io/Tic-tac-toe-Web-App/" target="_blank">
+            Live Game Demo
+          </a>
+          
+        </div>
+
+        <div class="card">
+          <a href="https://areesha797.github.io/Responsive-Landing-Page/" target="_blank">
+            Responsive Landing Page
+          </a>
+          <ul>
+            <li>Built using HTML, CSS, and JavaScript</li>
+            <li>Fully mobile-friendly design</li>
+            <li>Smooth layout transitions across screen sizes</li>
+            <li>Modern UI elements and interactive features</li>
+          </ul>
+          <a href="https://areesha797.github.io/Responsive-Landing-Page/" target="_blank">
+            Live Website Demo </a>
+        </div>
+        
+      
+
+        <div class="card">
+          <a href="https://areesha797.github.io/Recipe-Book/" target="_blank">
+            Recipe Book Web Application
+          </a>
+          <ul>
+            <li>Designed using HTML, CSS, and JavaScript</li>
+            <li>Used JavaScript DOM manipulation to dynamically display recipe content.</li>
+            <li>Added 3D-styled visuals </li>
+            <li>Modern UI elements and interactive features</li>
+          </ul>
+          <a href="https://areesha797.github.io/Recipe-Book/" target="_blank">
+            Live Website Demo </a>
+        </div>
+
+        <div class="card">
+          <h3>AI Chatbot for Career Counselling</h3>
+          <ul>
+            <li>Category: AI, Natural Language Processing</li>
+            <li>Implemented chatbot logic for course advice</li>
+            <li>Used Prolog, search algorithms, and knowledge base</li>
+          </ul>
+          <a href="https://www.linkedin.com/in/areesha-naeem-088507342" target="_blank">View on LinkedIn</a>
+
+        </div>
+
+        <div class="card">
+          <h3>Blood Donation System</h3>
+          <ul>
+            <li>Front-end built with HTML and CSS</li>
+            <li>Simple UI for managing donor details</li>
+            <li>Good practice in form handling and layouts</li>
+          </ul>
+          <a href="https://www.linkedin.com/in/areesha-naeem-088507342" target="_blank">View on LinkedIn</a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <h2>CERTIFICATIONS</h2>
+      <div class="projects">
+        <div class="card">
+          <img
+            src="images/freelancing_competition.jpg"
+            alt="Freelancing Coding Competition Certificate"
+          />
+          <p>
+            Freelancing Coding Competition<br /><small
+              >COMSATS Freelancing Society</small
+            >
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="images/ai_alison.jpg"
+            alt="Artificial Intelligence in Education Certificate"
+          />
+          <p>
+            Artificial Intelligence in Education and Learning<br /><small
+              >Alison</small
+            >
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="images/simplilearn_ai.jpg"
+            alt="Introduction to AI Certificate"
+          />
+          <p>
+            Introduction to Artificial Intelligence<br /><small
+              >Simplilearn</small
+            >
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="images/simplilearn_img_gen.jpg"
+            alt="Intro to Image Generation Certificate"
+          />
+          <p>
+            Introduction to Image Generation<br /><small>Simplilearn</small>
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="images/simplilearn_web_ai.jpg"
+            alt="Master AI for Web App Certificate"
+          />
+          <p>
+            Master AI for Web App Development<br /><small>Simplilearn</small>
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="images/Frontend.png"
+            alt="Introduction to Front End Development"
+          />
+          <p>
+            Introduction to Front End Development<br /><small>Simplilearn</small>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>SKILLS</h2>
+      <div class="skills">
+        <div class="card">Machine Learning</div>
+        <div class="card">Artificial Intelligence</div>
+        <div class="card">NLP</div>
+        <div class="card">Supervised Learning</div>
+        <div class="card">Clustering (AI)</div>
+        <div class="card">Python</div>
+        <div class="card">HTML / CSS / JavaScript</div>
+        <div class="card">Time Management</div>
+        <div class="card">Problem Solving</div>
+        <div class="card">Communication</div>
+        <div class="card">Teamwork</div>
+        <div class="card">Creativity</div>
+        <div class="card">Attention to Detail</div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>FEEL FREE TO CONTACT ME!</h2>
+      <p>
+        Email:
+        <a href="mailto:areesha.naeem122@gmail.com">areesha.naeem122@gmail.com</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/areesha-naeem-088507342"
+          target="_blank"
+        >
+          linkedin.com/in/areesha-naeem-088507342
+        </a>
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/areesha797" target="_blank"
+          >github.com/areesha797</a
+        >
+      </p>
+    </section>
+
+    <footer>&copy; 2025 Areesha Naeem | All rights reserved</footer>
+
+    <script src="script.js"></script>
   </body>
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <p> Made With Love by Areesha's Kitchen &copy; 2025 All Rights Reserved</p>
-    </div>
-
-  </footer>
-
 </html>
